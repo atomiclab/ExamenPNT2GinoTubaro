@@ -1,3 +1,4 @@
+<!-- Este sera un SINGLE FILE COMPONENT -->
 <template>
   <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-1">
     <div class="container-fluid">
@@ -18,10 +19,14 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <RouterLink class="nav-link" to="/conversor-de-unidades">Conversor de Unidades</RouterLink>
+            <RouterLink class="nav-link" to="/conversor-de-unidades" active-class="active"
+              >Conversor de Unidades</RouterLink
+            >
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link" to="/respuesta-a-preguntas">Respuesta a preguntas</RouterLink>
+            <RouterLink class="nav-link" to="/respuesta-a-preguntas" active-class="active"
+              >Respuesta a preguntas</RouterLink
+            >
           </li>
         </ul>
       </div>
@@ -31,48 +36,7 @@
 
 <script>
 export default {
-  name: 'AppNavbar', // cambiá el nombre si querés
-
-  // Registrar componentes hijos
-  components: {
-    // Ej: HijoComponente
-  },
-
-  // Propiedades que recibe el componente
-  props: {
-    // ejemplo: titulo: { type: String, default: '' }
-  },
-
-  // Estado local
-  data() {
-    return {}
-  },
-
-  // Propiedades computadas
-  computed: {
-    // ejemplo: doble() { return this.contador * 2; }
-  },
-
-  // Observadores
-  watch: {
-    // ejemplo: contador(nuevo, viejo) { /* ... */ }
-  },
-
-  // Métodos
-  methods: {
-    // ejemplo: incrementar() { this.contador++; }
-  },
-
-  // Ciclo de vida
-  created() {
-    // Se ejecuta al crear la instancia
-  },
-  mounted() {
-    // Se ejecuta cuando el componente se monta en el DOM
-  },
-  unmounted() {
-    // Limpieza al desmontar
-  },
+  name: 'AppNavbar',
 }
 </script>
 
