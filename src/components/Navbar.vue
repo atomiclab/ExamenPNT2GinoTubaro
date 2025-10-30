@@ -18,22 +18,10 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <RouterLink class="nav-link" to="/binding">Binding</RouterLink>
+            <RouterLink class="nav-link" to="/conversor-de-unidades">Conversor de Unidades</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link" to="/estructura">Estructura</RouterLink>
-          </li>
-          <li class="nav-item">
-            <RouterLink class="nav-link" to="/atributos">Atributos</RouterLink>
-          </li>
-          <li class="nav-item">
-            <RouterLink class="nav-link" to="/formulario">Formulario</RouterLink>
-          </li>
-          <li class="nav-item">
-            <RouterLink class="nav-link" to="/contadores">Contadores</RouterLink>
-          </li>
-          <li class="nav-item">
-            <RouterLink class="nav-link" to="/http">Http</RouterLink>
+            <RouterLink class="nav-link" to="/respuesta-a-preguntas">Respuesta a preguntas</RouterLink>
           </li>
         </ul>
       </div>

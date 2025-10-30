@@ -3,7 +3,7 @@
     <div class="card">
       <div class="card-header">
         <header>
-          <h2>Componente Principal (App)</h2>
+          <h2>Examen Parcial PNT2 - 30 OCT 2025 - Gino Tubaro</h2>
         </header>
       </div>
 
@@ -12,8 +12,6 @@
           <Navbar />
 
           <RouterView />
-
-
         </main>
       </div>
     </div>
@@ -22,7 +20,7 @@
 
 <script>
 /* Componentes de simple archivo (template, script, style) */
-import Navbar from './components/Navbar.vue';
+import Navbar from './components/Navbar.vue'
 
 //import Binding from './components/Binding.vue';
 //import Estructura from './components/Estructura.vue';
@@ -30,7 +28,6 @@ import Navbar from './components/Navbar.vue';
 
 /* Componentes de múltiples archivos (.html, .js, .css) */
 //import Formulario from './components/Formulario/index.vue'
-
 
 export default {
   name: 'App',

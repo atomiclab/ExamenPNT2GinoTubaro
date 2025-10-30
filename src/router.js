@@ -1,28 +1,21 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import Inicio from './components/Inicio.vue'
 
 const routes = [
   /* ---- definición de la ruta raíz ---- */
-  //{ path: '/', component: Binding },
-  { path: '/', redirect: '/binding' },
+  { path: '/', component: Inicio },
 
   /* ---- definición de las rutas activas ---- */
   {
-    path: '/binding',
+    path: '/conversor-de-unidades',
     component: {
       template:
-        '<div class="container mt-3"><h3>Binding</h3><p>Página inicial de ejemplo.</p></div>',
+        '<div class="container mt-3"><h3>Conversor de Unidades</h3><p>Página de conversor de unidades.</p></div>',
     },
   },
-  /*    
-    { path: '/binding', component: Binding },
-    { path: '/estructura', component: Estructura },
-    { path: '/atributos', component: Atributos },
-    { path: '/formulario', component: Formulario },
-    { path: '/contadores', component: Contadores },
-    { path: '/http', component: Http },*/
 
   /* ---- definición de las rutas no existentes ---- */
-  { path: '/:pathmatch(.*)*', redirect: '/binding' },
+  { path: '/:pathmatch(.*)*', redirect: '/' },
 ]
 
 const router = createRouter({
