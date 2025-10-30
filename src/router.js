@@ -6,7 +6,15 @@ const routes = [
   { path: '/', redirect: '/binding' },
 
   /* ---- definición de las rutas activas ---- */
-  /*    { path: '/binding', component: Binding },
+  {
+    path: '/binding',
+    component: {
+      template:
+        '<div class="container mt-3"><h3>Binding</h3><p>Página inicial de ejemplo.</p></div>',
+    },
+  },
+  /*    
+    { path: '/binding', component: Binding },
     { path: '/estructura', component: Estructura },
     { path: '/atributos', component: Atributos },
     { path: '/formulario', component: Formulario },
